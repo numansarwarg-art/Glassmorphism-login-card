@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NO:wght@100..400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 80%;
+    margin:0 auto;
+    font-family: playwrite no, sans-serif;
+    background: linear-gradient(blue,white,red);
+    min-height: 100vh;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+.box{
+    width: 80%;
+    border: 2px solid rgba(255, 255, 255, 0.705);
+    backdrop-filter: blur(18px);
+    background: transparent;
+padding: 20px;
+    text-align: center;
+    line-height: 42px;
+    margin: 20px auto;
+    border-top-left-radius:100px ;
+    border-bottom-right-radius: 100px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px 35px;
+}
+#username, #password{
+    width: 40%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 2px solid rgba(255, 255, 255, 0.705);;
+    border-top-left-radius:30px ;
+    border-bottom-right-radius: 30px;
+    background: transparent;
+}
+.box:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    transform: perspective(1000px) rotateY(360deg) rotateX(360deg);
+    transition: all 2s ease-in-out;}
+    
+::placeholder{
+    color: white;
+    opacity: .9;
+    background: transparent;
+        font-family: playwrite no, sans-serif;
+
+}
+h1{
+    color: transparent;
+    background-image: linear-gradient(blue, white, red);
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.si{
+    padding: 10px 40px;
+    border: none;
+    border-top-left-radius:25px ;
+    border-bottom-right-radius: 25px;
+    background: linear-gradient(blue,white,red);
+    color: black;
+    font-size: 16px;
+        font-family: playwrite no, sans-serif;
+
+    cursor: pointer;
+    transition: background-color 0.3s ease;}
+
+.si:hover{
+    background: linear-gradient(blue,white,red);
+opacity: 0.8;}
+.links{
+    margin-top: 15px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.fp, .su{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0 10px;}
+    .su{
+        color: blue;
+    }
+    .un{
+        font-family: sans-serif;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.1); 
+  text-shadow:  -1px -1px 1px rgba(255, 255, 255, 0.3), 
+    1px 1px 1px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(50px);
+    }
